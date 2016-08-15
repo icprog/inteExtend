@@ -1,0 +1,89 @@
+writer->WriteElementString( "text_xiangMu",							 this->text_xiangMu->Text );
+writer->WriteElementString( "text_shiGong", 							this->text_shiGong->Text );
+writer->WriteElementString( "text_jianLi", this->text_jianLi->Text );
+writer->WriteElementString( "text_tuJian", this->text_tuJian->Text );
+writer->WriteElementString( "text_gongChen", this->text_gongChen->Text );
+writer->WriteElementString( "text_liangChang", this->text_liangChang->Text );
+writer->WriteElementString( "text_sheJiYingli", this->text_sheJiYingli->Text );
+writer->WriteElementString( "text_sheJiQiangDu", this->text_sheJiQiangDu->Text );
+writer->WriteElementString( "text_sheJiZhangLaQiangDu", this->text_sheJiZhangLaQiangDu->Text );
+writer->WriteElementString( "text_ding1Num", this->text_ding1Num->Text );
+writer->WriteElementString( "text_ding1HuiGuifx", this->text_ding1HuiGuifx->Text );
+writer->WriteElementString( "text_ding1HuiGuib", this->text_ding1HuiGuib->Text );
+writer->WriteElementString( "text_machine1ip", this->text_machine1ip->Text );
+writer->WriteElementString( "text_machine1CheckDate", this->text_machine1CheckDate->Text );
+writer->WriteElementString( "text_ding2Num", this->text_ding2Num->Text );
+writer->WriteElementString( "text_ding2HuiGuifx", this->text_ding2HuiGuifx->Text );
+writer->WriteElementString( "text_ding2HuiGuib", this->text_ding2HuiGuib->Text );
+writer->WriteElementString( "text_machine2ip", this->text_machine2ip->Text );
+writer->WriteElementString( "text_machine2CheckDate", this->text_machine2CheckDate->Text );        
+
+if(this->text_xiangMu->Text.Length < 1 ) {                                                                              
+				 MessageBox::Show("请填写项目名称 ", "项目名称", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);        
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_shiGong->Text.Length < 1 ) {                                                                       
+				 MessageBox::Show("请填写施工单位 ", "施工单位", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);        
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_jianLi->Text.Length < 1 ) {                                                                        
+				 MessageBox::Show("请填写监理单位 ", "监理单位", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);        
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_tuJian->Text.Length < 1 ) {                                                                        
+				 MessageBox::Show("请填写土建合同号 ", "土建合同号", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);    
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_xiangMu->Text.Length < 1 ) {                                                                       
+				 MessageBox::Show("请填写工程名称 ", "工程名称", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);        
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_liangChang->Text.Length < 1 ) {                                                                    
+				 MessageBox::Show("请填写预制梁场 ", "预制梁场", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);        
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_sheJiYingli->Text.Length < 1 ) {                                                                   
+				 MessageBox::Show("请填写设计张拉应力 ", "设计张拉应力", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_sheJiQiangDu->Text.Length < 1 ) {                                                                  
+				 MessageBox::Show("请填写设计强度 ", "设计强度", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);        
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_sheJiZhangLaQiangDu->Text.Length < 1 ) {                                                           
+				 MessageBox::Show("请填写设计张拉强度 ", "设计张拉强度", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;                                                                                                        
+			 }	                                                                                                              
+                                                                                                                        
+			 if(this->text_ding1Num->Text.Length < 1 ) {                                                                      
+				 MessageBox::Show("请填写千斤顶1 编号", "编号", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);         
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_ding1HuiGuib->Text.Length < 1 ||  this->text_ding1HuiGuifx->Text.Length < 1) {                     
+				 MessageBox::Show("请填写张拉仪1 回归方程 ", "回归方程", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_machine1ip->Text.Length < 1 ) {                                                                    
+				 MessageBox::Show("请填写张拉仪1 IP地址 ", "IP地址", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);    
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_machine1CheckDate->Text.Length < 1 ) {                                                             
+				 MessageBox::Show("请填写张拉仪1检验日期 ", "检验日期", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk); 
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_ding2Num->Text.Length < 1 ) {                                                                      
+				 MessageBox::Show("请填写千斤顶2 编号", "编号", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);         
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_ding2HuiGuib->Text.Length < 1 ||  this->text_ding2HuiGuifx->Text.Length < 1) {                     
+				 MessageBox::Show("请填写张拉仪2 回归方程 ", "回归方程", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_machine2ip->Text.Length < 1 ) {                                                                    
+				 MessageBox::Show("请填写张拉仪2 IP地址 ", "IP地址", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);    
+				 return;                                                                                                        
+			 }                                                                                                                
+			 if(this->text_machine2CheckDate->Text.Length < 1 ) {                                                             
+				 MessageBox::Show("请填写张拉仪2检验日期 ", "检验日期", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk); 
+				 return;                                                                                                        
+			 }                                                                                                                

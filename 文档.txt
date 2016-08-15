@@ -1,0 +1,128 @@
+//从?¨?指?定?§配?置?文?件t读¨?取¨?参?数?y
+int gf_ReadLmcCfg(LmcCfg &LmcCfg, CString strLmcCfgPath)
+{
+	BOOL bOpenOk = FALSE;
+	int nRet = 0;
+	CIniFile IniFile;
+	IniFile.SetFileName(strLmcCfgPath);
+	bOpenOk = IniFile.ReadIniFile();
+	if (bOpenOk)
+	{
+		LmcCfg.ANALOGFPKMAXV =  IniFile.GetFloat(_T("LMC_CFG"),_T("ANALOGFPKMAXV"),5.0);
+		LmcCfg.STOPIOMSG0 = IniFile.GetString(_T("LMC_CFG"),_T("STOPIOMSG0"),_T(""));
+		LmcCfg.STEPMARKMODE = IniFile.GetInt(_T("LMC_CFG"),_T("STEPMARKMODE"),0);
+
+		nRet = 1;
+	}
+
+	return nRet;
+}
+
+int gf_SaveLmcCfg(LmcCfg &LmcCfg, CString strLmcCfgName)
+{
+	CIniFile IniFile;
+	IniFile.SetFileName(strLmcCfgName);
+
+	IniFile.SetString(_T("LMC_CFG"),_T("STOPIOMSG0"),LmcCfg.STOPIOMSG0);
+	IniFile.SetInt(_T("LMC_CFG"),_T("IPGSLEEPTIME"),LmcCfg.IPGSLEEPTIME);
+	IniFile.SetFloat(_T("LMC_CFG"),_T("ARCTOL"),LmcCfg.ARCTOL);
+
+
+	return 1;
+}
+
+工程名称
+土建合同号
+监理单位
+施工单位
+项目名称
+if(this->text_xiangMu->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??项?目?名?称? ", "项?目?名?称?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_shiGong->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??施??工?è单??¤位? ", "施??工?è单??¤位?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_jianLi->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??监¨¤理¤¨?单??¤位? ", "监¨¤理¤¨?单??¤位?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_tuJian->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??土?¨?建?§合?同??号? ", "土?¨?建?§合?同??号?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_xiangMu->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??工?è程¨?名?称? ", "工?è程¨?名?称?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_liangChang->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??预?è制?梁?o场? ", "预?è制?梁?o场?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_sheJiYingli->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??设?¨¨计?张?拉¤-应?|力?| ", "设?¨¨计?张?拉¤-应?|力?|", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_sheJiQiangDu->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??设?¨¨计?强?度¨¨ ", "设?¨¨计?强?度¨¨", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_sheJiZhangLaQiangDu->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??设?¨¨计?张?拉¤-强?度¨¨ ", "设?¨¨计?张?拉¤-强?度¨¨", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }	
+
+			 if(this->text_ding1Num->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??千?ì斤?顶?¤1 编?¨¤号?", "编?¨¤号?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_ding1HuiGuib->Text.Length < 1 ||  this->text_ding1HuiGuifx->Text.Length < 1) {
+				 MessageBox::Show("请?填??写??张?拉¤-仪°?1 回?归¨?方¤?程¨? ", "回?归¨?方¤?程¨?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_machine1ip->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??张?拉¤-仪°?1 IP地??址?¤ ", "IP地??址?¤", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_machine1CheckDate->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??张?拉¤-仪°?1检¨?验¨?日¨?期¨? ", "检¨?验¨?日¨?期¨?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_ding2Num->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??千?ì斤?顶?¤2 编?¨¤号?", "编?¨¤号?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_ding2HuiGuib->Text.Length < 1 ||  this->text_ding2HuiGuifx->Text.Length < 1) {
+				 MessageBox::Show("请?填??写??张?拉¤-仪°?2 回?归¨?方¤?程¨? ", "回?归¨?方¤?程¨?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_machine2ip->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??张?拉¤-仪°?2 IP地??址?¤ ", "IP地??址?¤", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+			 if(this->text_machine2CheckDate->Text.Length < 1 ) {
+				 MessageBox::Show("请?填??写??张?拉¤-仪°?2检¨?验¨?日¨?期¨? ", "检¨?验¨?日¨?期¨?", MessageBoxButtons::OKCancel, MessageBoxIcon::Asterisk);
+				 return;
+			 }
+
+this->text_xiangMu->Text.Length < 1 ||
+this->text_shiGong->Text.Length < 1 ||
+this->text_jianLi->Text.Length < 1 ||
+this->text_tuJian->Text.Length < 1 ||
+this->text_gongChen->Text.Length < 1 ||
+this->text_liangChang->Text.Length < 1 ||
+this->text_sheJiYingli->Text.Length < 1 ||
+this->text_sheJiQiangDu->Text.Length < 1 ||
+this->text_sheJiZhangLaQiangDu->Text.Length < 1 ||
+this->text_ding1Num->Text.Length < 1 ||
+this->text_ding1HuiGuifx->Text.Length < 1 ||
+this->text_ding1HuiGuib->Text.Length < 1 ||
+this->text_machine1ip->Text.Length < 1 ||
+this->text_machine1CheckDate->Text.Length < 1 ||
+this->text_ding2Num->Text.Length < 1 ||
+this->text_ding2HuiGuifx->Text.Length < 1 ||
+this->text_ding2HuiGuib->Text.Length < 1 ||
+this->text_machine2ip->Text.Length < 1 ||
+this->text_machine2CheckDate->Text.Length < 1 
+

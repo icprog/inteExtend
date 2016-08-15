@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7D797253-A7AC-4935-871E-91260CBF6BF5}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Inte_extend</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="*Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="*System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="*System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="*System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="*System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="*System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="*System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="*System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="Interop.OPCSiemensDAAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\Debug\Interop.OPCSiemensDAAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office11\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs" />
+    <Reference Include="office, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office11\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="SiemensOPCdotNETLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\Debug\SiemensOPCdotNETLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.0.621, Culture=neutral, PublicKeyToken=02a83cbd123fcd60">
+      <HintPath>..\Debug\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\program16X16.ico" />
+    <None Include="..\..\..\..\www.ico.la_725931be8e6f82d0b3013ac439c52b64_16X16.ico" />
+    <None Include="..\Debug\jc.JPG" />
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="Resources\10孔5次两端张拉.jpg" />
+    <None Include="Resources\10孔5次两端张拉_excel.jpg" />
+    <None Include="Resources\12孔6次两端张拉.jpg" />
+    <None Include="Resources\12孔6次两端张拉_excel.jpg" />
+    <None Include="Resources\2孔3次.jpg" />
+    <None Include="Resources\2孔3次_excel.jpg" />
+    <None Include="Resources\3孔4次.JPG" />
+    <None Include="Resources\3孔4次20米.JPG" />
+    <None Include="Resources\3孔4次_excel.JPG" />
+    <None Include="Resources\4孔4次.jpg" />
+    <None Include="Resources\4孔4次_excel.jpg" />
+    <None Include="Resources\4孔5次.jpg" />
+    <None Include="Resources\4孔5次_excel.jpg" />
+    <None Include="Resources\4孔6次.jpg" />
+    <None Include="Resources\4孔6次_excel.jpg" />
+    <None Include="Resources\4孔8次.jpg" />
+    <None Include="Resources\4孔8次_excel.jpg" />
+    <None Include="Resources\5孔10次.jpg" />
+    <None Include="Resources\5孔11次.jpg" />
+    <None Include="Resources\5孔11次_excel.jpg" />
+    <None Include="Resources\5孔13次.jpg" />
+    <None Include="Resources\5孔13次_excel.jpg" />
+    <None Include="Resources\5孔6次.jpg" />
+    <None Include="Resources\5孔6次_excel.jpg" />
+    <None Include="Resources\5孔7次.JPG" />
+    <None Include="Resources\5孔7次_excel.JPG" />
+    <None Include="Resources\5孔8次.JPG" />
+    <None Include="Resources\5孔8次_excel.JPG" />
+    <None Include="Resources\6孔12次对称张拉.jpg" />
+    <None Include="Resources\6孔12次对称张拉_excel.jpg" />
+    <None Include="Resources\6孔3次两端张拉.jpg" />
+    <None Include="Resources\6孔3次两端张拉_excel.jpg" />
+    <None Include="Resources\6孔6次.jpg" />
+    <None Include="Resources\6孔6次_excel.jpg" />
+    <None Include="Resources\6孔6次对称张拉.jpg" />
+    <None Include="Resources\6孔6次对称张拉_excel.jpg" />
+    <None Include="Resources\6孔8次.jpg" />
+    <None Include="Resources\6孔8次_excel.jpg" />
+    <None Include="Resources\7孔7次.jpg" />
+    <None Include="Resources\7孔7次_excel.jpg" />
+    <None Include="Resources\8孔4次两端张拉.jpg" />
+    <None Include="Resources\8孔4次两端张拉_excel.jpg" />
+    <None Include="Resources\8孔8次.jpg" />
+    <None Include="Resources\8孔8次_excel.jpg" />
+    <None Include="Resources\9孔9次(一).jpg" />
+    <None Include="Resources\9孔9次(二).jpg" />
+    <None Include="Resources\idle.JPG" />
+    <None Include="Resources\in.JPG" />
+    <None Include="Resources\null.JPG" />
+    <None Include="Resources\out.JPG" />
+    <None Include="Resources\T梁4孔4次.jpg" />
+    <None Include="Resources\T梁4孔4次_excel.jpg" />
+    <None Include="Resources\横桥向对称张拉.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="combase.cpp" />
+    <ClCompile Include="controlMachine.cpp" />
+    <ClCompile Include="goujian.cpp" />
+    <ClCompile Include="handleMach.cpp" />
+    <ClCompile Include="historyForm.cpp" />
+    <ClCompile Include="intel_main.cpp" />
+    <ClCompile Include="Inte_extend.cpp" />
+    <ClCompile Include="operationStep.cpp" />
+    <ClCompile Include="safewNote.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="systemSet.cpp" />
+    <ClCompile Include="ZhangLaParameterView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="combase.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="controlMachine.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="goujian.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="handleMach.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="historyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="intel_start.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="intel_main.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="operationStep.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="public.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="safewNote.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="systemSet.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ZhangLaParameterView.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="combase.resx">
+      <DependentUpon>combase.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMachine.resx">
+      <DependentUpon>controlMachine.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goujian.resx">
+      <DependentUpon>goujian.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="handleMach.resx">
+      <DependentUpon>handleMach.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historyForm.resx">
+      <DependentUpon>historyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intel_main.resx">
+      <DependentUpon>intel_main.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intel_start.resX">
+      <DependentUpon>intel_start.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="operationStep.resx">
+      <DependentUpon>operationStep.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="safewNote.resx">
+      <DependentUpon>safewNote.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="systemSet.resx">
+      <DependentUpon>systemSet.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZhangLaParameterView.resx">
+      <DependentUpon>ZhangLaParameterView.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

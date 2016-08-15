@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\jc.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\program16X16.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\www.ico.la_725931be8e6f82d0b3013ac439c52b64_16X16.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\2孔3次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\2孔3次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\3孔4次.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\3孔4次_excel.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\3孔4次20米.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\4孔4次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\4孔4次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\4孔5次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\4孔5次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\4孔6次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\4孔6次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\4孔8次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\4孔8次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔6次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔6次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔7次.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔7次_excel.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔8次.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔8次_excel.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔10次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔11次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔11次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔13次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\5孔13次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔3次两端张拉.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔3次两端张拉_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔6次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔6次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔6次对称张拉.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔6次对称张拉_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔8次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔8次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔12次对称张拉.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\6孔12次对称张拉_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\7孔7次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\7孔7次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\8孔4次两端张拉.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\8孔4次两端张拉_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\8孔8次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\8孔8次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\9孔9次(二).jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\9孔9次(一).jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\10孔5次两端张拉.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\10孔5次两端张拉_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\12孔6次两端张拉.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\12孔6次两端张拉_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\idle.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\in.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\null.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\out.JPG">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\T梁4孔4次.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\T梁4孔4次_excel.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Resources\横桥向对称张拉.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Inte_extend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_main.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="safewNote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="operationStep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="goujian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="controlMachine.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="systemSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="handleMach.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="combase.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZhangLaParameterView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="historyForm.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_start.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="safewNote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="operationStep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="goujian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="controlMachine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="systemSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="handleMach.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZhangLaParameterView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="historyForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="intel_main.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intel_start.resX">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="operationStep.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="safewNote.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goujian.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMachine.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="systemSet.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="combase.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="handleMach.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZhangLaParameterView.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historyForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

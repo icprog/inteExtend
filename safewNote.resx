@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>（一）张拉作业区应设立红色醒目标志，非张拉施工人员不得入内；张拉过程中，钢绞线正面严禁人员穿行、站立，千斤顶侧面两米内严禁人员站立。
+
+（二）张拉设备、机具必须符合施工及安全的要求。
+
+（三）锚具、夹片安装前应仔细检查其外观质量并核对合格证书。
+
+（四）检查智能张拉仪与千斤顶之间的连接点，包括油管、数据连接线等，各接口必须完好无损方可张拉施工；检查工具夹片，确保安装到位。
+ 
+（五）张拉过程中，智能张拉仪进、回油的速度，压力表指针升降，各传感器读数应平稳、均匀一致。经常检查安全阀，确保其灵敏可靠。 
+
+（六）张拉施工时，确保张拉机具不被暴晒、雨淋；夏天施工应保持仪器通风。
+ 
+（七）张拉施工时，确保控制台与张拉机具保持直线可视距离，最大可控制距离为200米。 
+
+（八）张拉施工时，每台智能张拉仪器应派专人值守，发现异常应立即按下&lt;紧急停机&gt;按钮并报告张拉操作员，待问题排除后方可继续张拉施工；张拉操作员张拉过程中不得离开控制台，发现异常立即点击软件界面&lt;暂停张拉&gt;，按下仪器&lt;紧急停机&gt;按钮，断开张拉仪电源，排查原因。
+ 
+（九）张拉用计算机必须专机专用，以免计算机病毒对程序进行篡改导致张拉异常。
+ 
+（十）张拉操作中若出现异常现象（如油表震动剧烈、发生漏油、电机声音异常、发生断丝、滑丝等），应立即停止作业。 
+
+（十一）张拉完毕后，对张拉锚固两端，应妥善保护，不得压重物。管道尚未压浆前梁端应设围护和挡板。严禁撞击锚具和钢束。</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
+        JC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIy
+        MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABHAMgDASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD32ikzRmgBaKTNIWCgk8Ack0AOoryPTviTfrqVxdMBc6fNMzRx
+        NwyJnC7T9McH9K9N0vVrXV7CC7tmISZSyq/DcHB49jWcKsZtpbo56OKp1ZOMXqi/RSZozWh0C0UmaM0A
+        LRSZozQAtFJmjNAC0UmaM0ALRSZozQAtFJmjNAC0UmaM0ALRSZozQAtFJmigBtFNzRmgB1RXP/HrN/uN
+        /Kn5qK5P+izf7jfyoA+cdMONIhPohqHSNauBqQl8+SK4ACwsjEbcZ4HpnJq74dVZItOR1DK0iqwPcFuR
+        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
+</value>
+  </data>
+    <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AADs6vb/7ez2/+/x8v/w9Oz/7/Pt//Dw8v/s8PL/6fTt//Xs9v/m8u//6+/z/+3v8f/r8PH/7O/y/+7v
+        8f/v7vH/7vDx/+bs4f+kr5b/e4dq/2Z3Vf9kc1n/scyq/5TBjP/j7Nj/6PXt/+Lz7f/r8e//7PDw/+3w
+        8P/w8PD/8e/w/+Xq4v9RXj7/P08m/15rTP+Kmnr/oLCR/2yYXP9FlzP/wuGo/3aPX/96rm//3u/X/+7w
+        7v/v7+//8u/v//Pv7//J0MP/Okkj/36NZ//q8OT/7/Dv//Dy6/9gjVL/P6As/5m9if8/Xxr/S5Yx/83g
+        yv/Q0c7/7u3q//by8P/38vD/7vHn/15nTP+YoIf/8vHx//Dv+P/z7vf/Y4xS/z2dKf+ZwYv/M18V/0Cc
+        LP/Y7dL/29ra/8XFxf/m5ub/8/Ly//Hx8f/c4NH/YmlV/8/Rx//v9ev/8/Lv/2GMTf8+nir/mMCK/zRh
+        F/8/nCz/2/HV//Py8v/Z2dn/xMTE/+3t7f/19PX/9fbz/+vu5f+VmYr/oKiW/+zu5P9ijkz/Pp4p/5nB
+        i/80YBb/P5ws/9vx1v/19PT/5+fn/76+vv/b29v/9fby//X09v/09PT/8/bs/9vh1f+ztK7/X4tJ/zyd
+        Jv+awoz/NWIY/z+bK//c8tb/8PDw/8/Pz//Kysr/6+vr//X19f/19fX/9/b3//f39v/29vX/9ff0/2CP
+        Tf8/nCr/ncKR/zBgG/9Dmiz/1ezP/9ra2v/j4+P/8/Pz//b29v/29vb/9vb2//f39//39vf/+Pf2//T1
+        8/9fjk3/QJ0r/53Dj/8vYRn/RJor/93z2P/29vb/9/f3//f39//39/f/+Pj4//j4+P/4+Pj/+Pj4//j3
+        9//29/X/X41M/z+cKv+cw4r/L2IW/0WbLP/c89f/+Pj4//b29v/4+Pj/+Pj4//n5+f/5+fn/+fn5//n5
+        +f/5+fj/9/n3/2COTf9Aniv/eqRm/y5kE/9FnCv/3PPX//f4+P/5+fn/+fn5//n5+f/3+vr/9/r6//f6
+        +v/3+vn/+Pr3//v4+P9hjU7/PqMq/yVnFv8ueBL/SJkv/9n20v/09/j/9vj6//f5+//3+fv/+/r6//v6
+        +v/7+vr/+/r5//z3+//7+Pf/YZBL/z+mJv88iyb/SoU3/4/Bhv/q+eb/+vr3//z7+P/7+vj/+/r4//v7
+        +//7+/v/+vv7//v7+v/9/fj/+Pvx/3agXf9HnCv/hbhy/+Lv0//1/e3//vr7//r6+P/7/Pn/+vv5//r7
+        +f/z+/r/8/v6//T8+//0/Pr/9vv9//P1+/+40bX/pNSi/9377//4+Pz/9Pv4//P5/f/0+/3/8/r8//T7
+        /P/0+/z/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+    </data>
+</root>
